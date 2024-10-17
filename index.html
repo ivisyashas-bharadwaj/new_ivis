@@ -169,7 +169,7 @@
         <p class="card__title title-front">Augumented Reality and Virtual Reality</p>
         <div class="card__content">
           <p class="card__title">Augumented Reality and Virtual Reality</p>
-          <a href="#"><button class="card__button">Live Demo</button></a>
+          <button class="card__button" id="card-1-button">Live Demo</button>
         </div>
       </div>
       <div class="card card-2">
@@ -185,7 +185,7 @@
         <p class="card__title title-front">Voice User Interface</p>
         <div class="card__content">
           <p class="card__title">Voice User Interface</p>
-          <a href="#"><button class="card__button">Live Demo</button></a>
+          <button class="card__button" id="card-3-button">Live Demo</button>
         </div>
       </div>
       <div class="card card-4">
@@ -193,7 +193,7 @@
         <p class="card__title title-front">Corporate and Professional Training</p>
         <div class="card__content">
           <p class="card__title">Corporate and Professional Training</p>
-          <a href="#"><button class="card__button">Live Demo</button></a>
+          <button class="card__button" id="card-4-button">Live Demo</button>
         </div>
       </div>
       <div class="card card-5">
@@ -425,9 +425,26 @@
   </script>
 
   <script>
-    document.getElementById('card-2-button').addEventListener('click', function() {
-      window.location.href = 'https://play.google.com/store/apps/details?id=com.ivislabs.via';
-    });
+document.getElementById('card-2-button').style.cursor = 'pointer';
+document.getElementById('card-2-button').addEventListener('click', function() {
+  window.open('https://play.google.com/store/apps/details?id=com.ivislabs.via', '_blank');
+});
+
+document.getElementById('card-1-button').style.cursor = 'pointer';
+document.getElementById('card-1-button').addEventListener('click', function() {
+  window.open('https://ivisarvr.com/', '_blank');
+});
+
+document.getElementById('card-3-button').style.cursor = 'pointer';
+document.getElementById('card-3-button').addEventListener('click', function() {
+  window.open('https://youtu.be/9MZa-hWbhIE?si=jJAwA6zl9FKZbP2e', '_blank');
+});
+
+document.getElementById('card-4-button').style.cursor = 'pointer';
+document.getElementById('card-4-button').addEventListener('click', function() {
+  window.open('https://punyahacademy.com/', '_blank');
+});
+
   </script>
 </body>
 
