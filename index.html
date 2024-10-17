@@ -96,7 +96,7 @@
     <img src="assets/Copy of Established in 2021-dark.gif" alt="Roadmap" class="dark-image">
   </div>
 
-  <section class="container">
+  <!-- <section class="container">
     <div class="testimonial mySwiper">
       <h1>Hear From Our Clients </h1>
       <div class="testi-content swiper-wrapper">
@@ -153,7 +153,7 @@
       <div class="swiper-button-prev nav-btn"></div>
       <div class="swiper-pagination"></div>
     </div>
-  </section>
+  </section> -->
 
   <div class="m1-container">
 
@@ -169,7 +169,7 @@
         <p class="card__title title-front">Augumented Reality and Virtual Reality</p>
         <div class="card__content">
           <p class="card__title">Augumented Reality and Virtual Reality</p>
-          <button class="card__button">Live Demo</button>
+          <a href="#"><button class="card__button">Live Demo</button></a>
         </div>
       </div>
       <div class="card card-2">
@@ -177,7 +177,7 @@
         <p class="card__title title-front">Web Application and Mobile Application Development</p>
         <div class="card__content">
           <p class="card__title">Web Application and Mobile Application Development</p>
-          <button class="card__button">Live Demo</button>
+          <button class="card__button" id="card-2-button">Live Demo</button>
         </div>
       </div>
       <div class="card card-3">
@@ -185,7 +185,7 @@
         <p class="card__title title-front">Voice User Interface</p>
         <div class="card__content">
           <p class="card__title">Voice User Interface</p>
-          <button class="card__button">Live Demo</button>
+          <a href="#"><button class="card__button">Live Demo</button></a>
         </div>
       </div>
       <div class="card card-4">
@@ -193,7 +193,7 @@
         <p class="card__title title-front">Corporate and Professional Training</p>
         <div class="card__content">
           <p class="card__title">Corporate and Professional Training</p>
-          <button class="card__button">Live Demo</button>
+          <a href="#"><button class="card__button">Live Demo</button></a>
         </div>
       </div>
       <div class="card card-5">
@@ -201,7 +201,7 @@
         <p class="card__title title-front">AI Integration for fashion, infrastructure, health tech & EdTech Domains</p>
         <div class="card__content">
           <p class="card__title">AI Integration for fashion, infrastructure, health tech & EdTech Domains</p>
-          <button class="card__button">Live Demo</button>
+          <a href="#"><button class="card__button">Live Demo</button></a>
         </div>
       </div>
     </div>
@@ -421,6 +421,12 @@
       mobileCheckbox.addEventListener('change', function () {
         setTheme(this.checked);
       });
+    });
+  </script>
+
+  <script>
+    document.getElementById('card-2-button').addEventListener('click', function() {
+      window.location.href = 'https://play.google.com/store/apps/details?id=com.ivislabs.via';
     });
   </script>
 </body>
