@@ -375,7 +375,7 @@ h1 {
 
 .typewriter {
   /* background-color: #fff; */
-  background-image: url(assets/background.jpg);
+  background-image: url('assets/background.jpg');
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
