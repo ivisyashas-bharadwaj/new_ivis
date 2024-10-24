@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: "Nunito";
 }
 
 :root{
@@ -82,7 +82,7 @@ nav {
 .hover a:hover{
   background-color: #c9e6e5;
   /* background-color: rgb(39, 240, 240); */
-  color: var(--primary-color);
+  color: black;
   padding: .4rem .8rem;
   transition: .3s cubic-bezier(0, 0, 0.61, 0.83);
 }
@@ -105,7 +105,7 @@ nav {
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
-  font-family: "Arial";
+  font-family: "Nunito";
   position: relative;
   text-transform: uppercase;
   color: transparent;
@@ -372,7 +372,7 @@ ul {
     display: flex;
     padding: 1rem 4rem 0 4rem;
     gap: 2rem;
-    font-family: "Roboto";
+    font-family: "Nunito";
     color: var(--secondary-color);
 }
 
