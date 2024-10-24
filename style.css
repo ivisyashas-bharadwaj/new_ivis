@@ -341,7 +341,7 @@ ul {
   }
 }
 
-@media (min-width:600px) {
+@media (min-width:601px) {
   .stopShowing {
     display: none;
   }
@@ -588,13 +588,18 @@ body.dark-theme .roadmap .dark-image{
   display: flex;
   padding: 10px;
   background-color: #f0f0f0;
+  align-items: center;
+  box-sizing: border-box;
 }
+
 .chat-input input {
   flex-grow: 1;
   border: none;
   border-radius: 20px;
   padding: 10px 15px;
+  margin-right: 10px;
 }
+
 .chat-input button {
   background-color: #075e54;
   color: white;

@@ -343,7 +343,7 @@ ul {
   }
 }
 
-@media (min-width:600px) {
+@media (min-width:601px) {
   .stopShowing {
     display: none;
   }
@@ -449,6 +449,112 @@ ul {
   scale: 1.1;
   transition: 0.5s;
 }
+
+/* whatsApp chatbox  */
+
+.whatsapp-button {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.whatsapp-button img{
+  width: 50px;
+  height: 50px;
+}
+
+.whatsapp-button:hover{
+  scale: 1.05;
+  transition: 0.8s;
+}
+
+.chat-container {
+  /* display: none; */
+  width: 300px;
+  border-radius: 1rem;
+  z-index: 10;
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+  margin: 1rem;
+  overflow: hidden;
+}
+.chat-header {
+  background-color: #075e54;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.chat-info {
+  display: flex;
+  flex-direction: column;
+}
+.chat-name {
+  font-weight: bold;
+}
+.chat-status {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #e5ddd5;
+}
+.message {
+  max-width: 70%;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  clear: both;
+}
+.sent {
+  background-color: #dcf8c6;
+  float: right;
+}
+.received {
+  background-color: #fff;
+  float: left;
+}
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background-color: #f0f0f0;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+
+.chat-input button {
+  background-color: #075e54;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
 
 /* footer styling */
 
