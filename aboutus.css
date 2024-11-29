@@ -771,7 +771,7 @@ footer{
   bottom: 0;  
   background-color: var(--primary-color);
   box-shadow: 10px 10px 50px lightblue inset;
-  padding: 0 1rem 1rem;
+  padding: 1rem 1rem 1rem;
 }
 
 .footer {
